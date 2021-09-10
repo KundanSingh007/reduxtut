@@ -1,4 +1,4 @@
-## React-Redux
+## Learning indepth React-Redux
 
 
 
