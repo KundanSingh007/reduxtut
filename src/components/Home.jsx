@@ -25,6 +25,21 @@ function Home() {
           <button>Add To Cart</button>
         </div>
       </div>
+      <div className="cart-wrapper">
+        <div className="img-wrapper item">
+          <img
+            src="https://i.gadgets360cdn.com/products/large/iphone-12-all-404x800-1602616616.jpg"
+            alt=""
+          />
+        </div>
+        <div className="text-wrapper item">
+          <span>I-Phone</span>
+          <span>Price: $1000.00</span>
+        </div>
+        <div className="btn-wrapper item">
+          <button>Add To Cart</button>
+        </div>
+      </div>
     </div>
   );
 }
