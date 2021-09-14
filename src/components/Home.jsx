@@ -1,15 +1,13 @@
 import React from "react";
+import iphoneImage from "./iphone.jpg";
 
 function Home(props) {
   return (
     <div>
-      <h1>Home Component</h1>
+      <h1>Basic Redux for Cart</h1>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
-          <img
-            src="https://m.media-amazon.com/images/I/31wZz7M9MaL.jpg"
-            alt=""
-          />
+          <img src={iphoneImage} alt="" />
         </div>
         <div className="text-wrapper item">
           <span>I-Phone</span>
