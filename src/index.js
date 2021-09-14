@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 import rootReducer from "./services/Reducers/Index";
 
 const store = createStore(rootReducer);
-console.warn("store data", store);
+
 
 ReactDOM.render(
   <Provider store={store}>

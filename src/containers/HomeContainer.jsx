@@ -1,7 +1,6 @@
-import {connect} from "react-redux"
+import { connect } from "react-redux";
 import Home from "../components/Home";
-import { addToCart } from './../services/Actions/Action';
-
+import { addToCart } from "./../services/Actions/Action";
 
 const mapStateToProps = (state) => ({});
 const mapDispatchToProps = (dispatch) => ({
@@ -9,4 +8,3 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
-
